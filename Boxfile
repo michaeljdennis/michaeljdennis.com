@@ -1,0 +1,12 @@
+web1:
+  name: michaeljdennis
+  document_root: public
+  shared_writable_dirs:
+    - /storage/cache
+    - /storage/database
+    - /storage/logs
+    - /storage/sessions
+    - /storage/views
+    - /storage/work
+  php_extensions:
+    - mcrypt
