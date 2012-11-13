@@ -18,6 +18,8 @@
 		</header>
 		<div role="main" class="main">
 			<div class="home">
+				<h1><?php echo Request::env(); ?></h1>
+				
 				<h2>Learn the terrain.</h2>
 
 				<p>
