@@ -58,7 +58,7 @@
 
 		<br><br><br><br>
 		
-		<div style="color:#ddd;text-align:center;">Powered by PagodaBox</div>
+		<div style="color:#ccc;text-align:center;text-shadow:0 -1px 0 #555;">Powered by PagodaBox</div>
 
 	</div>
 	
