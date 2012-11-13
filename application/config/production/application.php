@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://michaeljdennis.pagodabox.com',
+	'url' => 'https://michaeljdennis.pagodabox.com',
 
 	/*
 	|--------------------------------------------------------------------------
