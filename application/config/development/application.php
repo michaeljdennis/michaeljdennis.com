@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost/michaeljdennis.com',
+	'url' => 'http://localhost/michaeljdennis.com/public',
 
 	/*
 	|--------------------------------------------------------------------------
