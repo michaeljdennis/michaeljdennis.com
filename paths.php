@@ -23,7 +23,7 @@
 
 $environments = array(
 
-	'local' => array('http://localhost*'),
+	'development' => array('http://localhost*'),
 	'production' => array('http://michaeljdennis.pagodabox.com*', 'http://michaeljdennis.com*')
 
 );
