@@ -1,0 +1,76 @@
+@import "reset";
+
+body {
+    background: #fefefe;
+    font-family: helvetica,arial,sans-serif;
+}
+
+#container {
+	background: url(../img/container-bg.jpg) repeat-x;
+	margin: -500px auto 0 auto;
+	padding: 20px 0 0 0;
+}
+
+#status-container {
+    border: 1px solid #ccc;
+	border-radius: 0px;
+	color: #777;
+	font-size: 12px;
+	line-height: 1.4;
+	margin: 0 auto;
+	padding: 15px;
+	position: relative;
+	text-align: center;
+	width: 268px;
+	
+	#status {
+		overflow: hidden;
+		word-wrap: break-word;
+	}
+	
+	a {
+		color: #777;
+		text-decoration: none;
+		text-shadow: 0 1px 0px #fff;
+	}
+	
+	a:hover {
+		text-decoration: underline;
+	}
+	
+	.source {
+		font-size: 11px;
+		margin: 6px 0 0 0;
+	}
+	
+	#arrow {
+		height: 0;
+		width: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-top: 10px solid #fff;
+		position: absolute;
+		bottom: -10px;
+		right: 50px;
+	}
+}
+
+#gravatar {
+	display: block;
+    margin: 0 auto;
+    width: 300px;
+    
+    img {
+    	display: block;
+    }
+}
+
+#badge {
+	margin: 0 auto;
+	width: 300px;
+}
+
+#plusone {
+    margin: 0 auto;
+    width: 300px;
+}

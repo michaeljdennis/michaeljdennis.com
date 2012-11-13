@@ -1,7 +1,7 @@
 <?php
 
-class Home_Controller extends Base_Controller {
-
+class Home_Controller extends Base_Controller
+{
 	/*
 	|--------------------------------------------------------------------------
 	| The Default Controller
@@ -32,7 +32,8 @@ class Home_Controller extends Base_Controller {
 
 	public function action_index()
 	{
-		return View::make('home.index');
+		Asset::add('styles', 'css/styles.css');
+		Asset::add('global', 'js/global.min.js');
+		return View::make('home.index')->nest('header', 'partials.header')->nest('footer', 'partials.footer');
 	}
-
 }
