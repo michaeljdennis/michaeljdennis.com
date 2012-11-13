@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>michaeljdennis | Michael Dennis</title>
 	<meta name="description" content="">
-	<link rel="shortcut icon" href="<?php echo URL::to_asset('https://www.gravatar.com/avatar/c2db930ff62d116e3533eadf7c4d5785?s=16&d=mm'); ?>">
+	<link rel="shortcut icon" href="<?php echo URL::to_asset('https://www.gravatar.com/avatar/c2db930ff62d116e3533eadf7c4d5785?s=32&d=mm'); ?>">
 	<?php echo Asset::styles(); ?>
 
 	<script type="text/javascript">
