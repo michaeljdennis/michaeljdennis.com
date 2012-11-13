@@ -14,11 +14,11 @@
 	
 	</div>
 
-	<a href="<?php echo URL::to('http://about.me/michaeljdennis'); ?>">
+	<a href="<?php echo URL::to('https://about.me/michaeljdennis'); ?>">
 		<?php
 		
 		echo HTML::image(
-			'http://www.gravatar.com/avatar/c2db930ff62d116e3533eadf7c4d5785?s=300&d=mm',
+			'https://www.gravatar.com/avatar/c2db930ff62d116e3533eadf7c4d5785?s=300&d=mm',
 			'Michael Dennis',
 			array('id="gravatar"', 'title' => 'about.me/michaeljdennis')
 		);
