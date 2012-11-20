@@ -58,8 +58,6 @@
 
 	</div>
 	
-	<div style="color:#ddd;margin:20px 0 0 0;text-align:center;text-shadow:0 -1px 0 #777;">Powered by PagodaBox</div>
-	
 </div>
 
 <?php echo $footer; ?>
