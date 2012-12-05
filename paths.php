@@ -3,7 +3,7 @@
  * Laravel - A PHP Framework For Web Artisans
  *
  * @package  Laravel
- * @version  3.2.11
+ * @version  3.2.12
  * @author   Taylor Otwell <taylorotwell@gmail.com>
  * @link     http://laravel.com
  */
@@ -24,7 +24,7 @@
 $environments = array(
 
 	'development' => array('http://localhost/michaeljdennis.com/*'),
-	'production' => array('http://michaeljdennis.pagodabox.com*', 'https://michaeljdennis.pagodabox.com*', 'http://michaeljdennis.com*')
+  'production' => array('http://michaeljdennis.pagodabox.com*', 'https://michaeljdennis.pagodabox.com*', 'http://michaeljdennis.com*')
 
 );
 
@@ -56,6 +56,41 @@ $paths['public'] = 'public';
 // *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 // END OF USER CONFIGURATION. HERE BE DRAGONS!
 // *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+/*
+                                                  .~))>>
+                                                 .~)>>
+                                               .~))))>>>
+                                             .~))>>             ___
+                                           .~))>>)))>>      .-~))>>
+                                         .~)))))>>       .-~))>>)>
+                                       .~)))>>))))>>  .-~)>>)>
+                   )                 .~))>>))))>>  .-~)))))>>)>
+                ( )@@*)             //)>))))))  .-~))))>>)>
+              ).@(@@               //))>>))) .-~))>>)))))>>)>
+            (( @.@).              //))))) .-~)>>)))))>>)>
+          ))  )@@*.@@ )          //)>))) //))))))>>))))>>)>
+       ((  ((@@@.@@             |/))))) //)))))>>)))>>)>
+      )) @@*. )@@ )   (\_(\-\b  |))>)) //)))>>)))))))>>)>
+    (( @@@(.@(@ .    _/`-`  ~|b |>))) //)>>)))))))>>)>
+     )* @@@ )@*     (@)  (@) /\b|))) //))))))>>))))>>
+   (( @. )@( @ .   _/  /    /  \b)) //))>>)))))>>>_._
+    )@@ (@@*)@@.  (6///6)- / ^  \b)//))))))>>)))>>   ~~-.
+ ( @jgs@@. @@@.*@_ VvvvvV//  ^  \b/)>>))))>>      _.     `bb
+  ((@@ @@@*.(@@ . - | o |' \ (  ^   \b)))>>        .'       b`,
+   ((@@).*@@ )@ )   \^^^/  ((   ^  ~)_        \  /           b `,
+     (@@. (@@ ).     `-'   (((   ^    `\ \ \ \ \|             b  `.
+       (*.@*              / ((((        \| | |  \       .       b `.
+                         / / (((((  \    \ /  _.-~\     Y,      b  ;
+                        / / / (((((( \    \.-~   _.`" _.-~`,    b  ;
+                       /   /   `(((((()    )    (((((~      `,  b  ;
+                     _/  _/      `"""/   /'                  ; b   ;
+                 _.-~_.-~           /  /'                _.'~bb _.'
+               ((((~~              / /'              _.'~bb.--~
+                                  ((((          __.-~bb.-~
+                                              .'  b .~~
+                                              :bb ,' 
+                                              ~~~~
+*/
 
 // --------------------------------------------------------------
 // Change to the current working directory.
