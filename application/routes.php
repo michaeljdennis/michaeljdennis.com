@@ -39,7 +39,7 @@ Route::get('redis-test', function(){
 
 	$redis = \Laravel\Redis::db();
 
-	$redis::set('key', 'value');
+	$redis::set('PagodaBox', 'Pwns');
 
 	echo $redis::get('key');
 });
