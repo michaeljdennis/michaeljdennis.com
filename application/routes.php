@@ -47,7 +47,7 @@ Route::get('redis-test', function(){
 	// 	echo $key,': ',$redis::get($key),'<br>';
 	// }
 
-	Cache::put('names', 'Kat and Michael', 10);
+	Cache::put('names', 'Kat and Michael', .15);
 	echo Cache::get('names');
 });
 
