@@ -41,7 +41,7 @@ Route::get('redis-test', function(){
 
 	$redis::set('PagodaBox', 'Pwns');
 
-	echo $redis::get('*');
+	echo $redis::keys('*');
 });
 
 /*
