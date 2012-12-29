@@ -35,13 +35,17 @@
 Route::controller('home');
 
 Route::get('redis-test', function(){
-	echo 'Redis test<br>';
+	echo '<h1>Redis Tests</h1>';
 
 	$redis = \Laravel\Redis::db();
 
+	//$redis::flushdb();
 	$redis::set('PagodaBox', 'Pwns');
 
-	print_r($redis::keys('*'));
+	foreach($redis::keys('*') as $key)
+	{
+		echo $key,': ',$redis::get($key),'<br>';
+	}
 });
 
 /*
