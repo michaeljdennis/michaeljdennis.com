@@ -34,6 +34,16 @@
 
 Route::controller('home');
 
+Route::get('redis-test', function(){
+	echo 'Redis test<br>';
+
+	$redis = \Laravel\Redis::db();
+
+	$redis::set('key', 'value');
+
+	echo $redis::get('key');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
