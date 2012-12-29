@@ -39,8 +39,9 @@ Route::get('redis-test', function(){
 
 	$redis = \Laravel\Redis::db();
 
-	//$redis::flushdb();
-	$redis::set('PagodaBox', 'Pwns');
+	// $redis::flushdb();
+	// $redis::set('PagodaBox', 'Pwns');
+	$redis::pexpire('expireKey', 20000);
 
 	foreach($redis::keys('*') as $key)
 	{
