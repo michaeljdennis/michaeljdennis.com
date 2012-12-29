@@ -37,16 +37,18 @@ Route::controller('home');
 Route::get('redis-test', function(){
 	echo '<h1>Redis Tests</h1>';
 
-	$redis = \Laravel\Redis::db();
+	// $redis = \Laravel\Redis::db();
 
 	// $redis::flushdb();
 	// $redis::set('PagodaBox', 'Pwns');
-	$redis::pexpire('expireKey', 20000);
 
-	foreach($redis::keys('*') as $key)
-	{
-		echo $key,': ',$redis::get($key),'<br>';
-	}
+	// foreach($redis::keys('*') as $key)
+	// {
+	// 	echo $key,': ',$redis::get($key),'<br>';
+	// }
+
+	Cache::put('names', 'Kat and Michael', 10);
+	echo Cache::get('names');
 });
 
 /*
