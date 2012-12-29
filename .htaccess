@@ -1,3 +1,4 @@
+Options +FollowSymlinks
 RewriteEngine on
 rewritecond %{http_host} ^michaeljdennis.pagodabox.com [nc]
 rewriterule ^(.*)$ http://michaeljdennis.com.com/$1 [r=301,nc]
