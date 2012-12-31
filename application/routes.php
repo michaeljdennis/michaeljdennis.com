@@ -34,23 +34,6 @@
 
 Route::controller('home');
 
-Route::get('redis-test', function(){
-	echo '<h1>Redis Tests</h1>';
-
-	// $redis = \Laravel\Redis::db();
-
-	// $redis::flushdb();
-	// $redis::set('PagodaBox', 'Pwns');
-
-	// foreach($redis::keys('*') as $key)
-	// {
-	// 	echo $key,': ',$redis::get($key),'<br>';
-	// }
-
-	Cache::put('names', 'Kat and Michael', .15);
-	echo Cache::get('names');
-});
-
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
