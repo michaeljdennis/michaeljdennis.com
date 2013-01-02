@@ -1,8 +1,8 @@
 RewriteEngine on
 
 #Redirect PagodaBox domain to root domain
-rewritecond %{http_host} ^michaeljdennis.pagodabox.com [nc]
-rewriterule ^(.*)$ http://michaeljdennis.com/$1 [r=301,nc]
+RewriteCond %{http_host} ^michaeljdennis.pagodabox.com [nc]
+RewriteRule ^(.*)$ http://michaeljdennis.com/$1 [r=301,nc]
 
 #Redirect michaeljdennis.com/+ to Google+ page
-redirectmatch ^/\+(.*)$ http://plus.google.com/105229919707172563396
+RedirectMatch ^/\+(.*)$ http://plus.google.com/105229919707172563396
