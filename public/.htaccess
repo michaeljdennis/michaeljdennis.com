@@ -5,5 +5,5 @@ rewritecond %{http_host} ^michaeljdennis.pagodabox.com [nc]
 rewriterule ^(.*)$ http://michaeljdennis.com/$1 [r=301,nc]
 
 #Redirect michaeljdennis.com/+ to Google+ page
-rewritecond %{http_host} ^michaeljdennis.com/+ [nc]
+rewritecond %{http_host} ^michaeljdennis.com/\+ [nc]
 rewriterule ^(.*)$ https://plus.google.com/105229919707172563396 [r=301,nc]
