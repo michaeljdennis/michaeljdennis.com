@@ -8,4 +8,4 @@ rewriterule ^(.*)$ http://michaeljdennis.com/$1 [r=301,nc]
 rewritecond %{http_host} ^michaeljdennis.com/ [nc]
 rewriterule ^/\+.*$ https://plus.google.com/105229919707172563396 [r=301,nc]
 
-RedirectMatch ^/\+(.*)$ http://plus.google.com/105229919707172563396$1
+RedirectMatch ^/\+(.*)$ http://plus.google.com/105229919707172563396
