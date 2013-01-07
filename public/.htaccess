@@ -4,5 +4,9 @@ RewriteEngine on
 RewriteCond %{http_host} ^michaeljdennis.pagodabox.com [nc]
 RewriteRule ^(.*)$ http://michaeljdennis.com/$1 [r=301,nc]
 
+#Redirect www domain to root domain
+RewriteCond %{http_host} ^www.michaeljdennis.com [nc]
+RewriteRule ^(.*)$ http://michaeljdennis.com/$1 [r=301,nc]
+
 #Redirect michaeljdennis.com/+ to Google+ page
 RedirectMatch ^/\+(.*)$ http://plus.google.com/105229919707172563396
