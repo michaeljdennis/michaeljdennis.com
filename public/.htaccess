@@ -5,8 +5,8 @@ RewriteCond %{http_host} ^michaeljdennis.pagodabox.com [nc]
 RewriteRule ^(.*)$ http://michaeljdennis.com/$1 [r=301,nc]
 
 #Redirect PagodaBox www domain to root domain
-RewriteCond %{http_host} ^www.michaeljdennis.pagodabox.com [nc]
-RewriteRule ^(.*)$ http://michaeljdennis.com/$1 [r=301,nc]
+#RewriteCond %{http_host} ^www.michaeljdennis.pagodabox.com [nc]
+#RewriteRule ^(.*)$ http://michaeljdennis.com/$1 [r=301,nc]
 
 #Redirect www domain to root domain
 RewriteCond %{http_host} ^www.michaeljdennis.com [nc]
