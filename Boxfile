@@ -4,4 +4,4 @@ web1:
   document_root: /public
   after_build:
   - 'curl -s https://getcomposer.org/installer | php'
-  - 'php composer install'
+  - 'php composer.phar install'
