@@ -1,7 +1,7 @@
 RewriteEngine on
 
-#Redirect PagodaBox domain to root domain
-RewriteCond %{http_host} ^(.*\.)?michaeljdennis.pagodabox.com [nc]
+#Redirect GoPagoda domain to root domain
+RewriteCond %{http_host} ^(.*\.)?michaeljdennis.gopagoda.com [nc]
 RewriteRule ^(.*)$ http://michaeljdennis.com/$1 [r=301,nc]
 
 #Redirect www domain to root domain
