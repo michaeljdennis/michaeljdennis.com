@@ -4,21 +4,21 @@ $(window).load(function(){
 		dataType: 'json',
 		success: function(data){
 			var html = '',
-			annotation = data.items[0].annotation,
-			content = data.items[0].object.content,
-			url = data.items[0].object.attachments[0].url,
+			annotation,
+			content,
+			url,
 			post = data.items[0].url;
-			
-			if(annotation){
-				html += annotation + ' - ';
+
+			if(data.items[0].annotation){
+				html += data.items[0].annotation + ' - ';
 			}
 			
-			if(content){
-				html += content + '<br>';
+			if(data.items[0].object.content){
+				html += data.items[0].object.content + '<br>';
 			}
 			
-			if(url){
-				html += '<a href="' + url + '">' + url + '</a>';
+			if(data.items[0].object.attachments){
+				html += '<a href="' + data.items[0].object.attachments[0].url + '">' + data.items[0].object.attachments[0].url + '</a>';
 			}
 			
 			html += '<div class="source"><a href="' + post + '">-via Google+</a></div>';
