@@ -2,6 +2,7 @@ web1:
   name: michaeljdennis
   php_version: 5.4.14
   php_extensions:
+  - mcrypt
   - zip
   document_root: /public
   after_build:
