@@ -26,5 +26,5 @@ $(window).load(function(){
 		}
 	});
 	
-	$('.container').animate({marginTop: '0px'});
+	// $('.container').animate({marginTop: '0px'});
 });
