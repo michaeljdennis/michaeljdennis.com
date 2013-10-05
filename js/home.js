@@ -25,6 +25,4 @@ $(window).load(function(){
 			$('.status').html(html);
 		}
 	});
-	
-	// $('.container').animate({marginTop: '0px'});
 });
