@@ -1,4 +1,4 @@
-$(window).load(function(){
+$(document).ready(function(){
 	$.ajax({
 		url: 'https://www.googleapis.com/plus/v1/people/105229919707172563396/activities/public?alt=json&maxResults=1&key=AIzaSyAH2s9q92ED9k6VQJPNjM9z13uPDyxnX-M',
 		dataType: 'json',
