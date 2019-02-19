@@ -1,4 +1,4 @@
-@import "partials/normalize";
+@import "partials/vendor/normalize";
 
 body {
     background: #f4f4f4;
@@ -6,7 +6,14 @@ body {
 
 .container {
     color: #eaeaea;
+    font-size: 12rem;
     text-align: center;
     text-shadow: -1px -1px #ddd;
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    .container {
+        font-size: 20rem;
+    }
 }
