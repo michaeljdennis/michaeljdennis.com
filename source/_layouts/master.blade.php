@@ -11,8 +11,8 @@
 
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Michael Dennis | michaeljdennis</title>
-        <meta name="description" content="The life and times of Michael Dennis. michaeljdennis.">
+        <title>{{ $page->pageTitle() }}</title>
+        <meta name="description" content="{{ $page->pageDescription() }}">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link rel="shortcut icon" href="https://www.gravatar.com/avatar/c2db930ff62d116e3533eadf7c4d5785?s=32&d=mm">

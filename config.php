@@ -15,4 +15,22 @@ return [
             'sort' => ['-date', '-time'],
         ]
     ],
+    'pageTitle' => function($page) {
+        $title = 'Michael Dennis | michaeljdennis';
+
+        if ($page->title) {
+            $title = $page->title . ' | ' . $title;
+        }
+
+        return $title;
+    },
+    'pageDescription' => function($page) {
+        $description = 'The life and times of Michael Dennis. michaeljdennis.';
+
+        if ($page->title) {
+            $description = $page->title;
+        }
+
+        return $description;
+    },
 ];
