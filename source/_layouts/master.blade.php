@@ -51,11 +51,6 @@
                             </a>
                         </li>
                         <li class="social">
-                            <a href="{{ $page->googlePlusUrl }}">
-                                <i class="fab fa-google-plus"></i>
-                            </a>
-                        </li>
-                        <li class="social">
                             <a href="{{ $page->twitterUrl }}">
                                 <i class="fab fa-twitter"></i>
                             </a>
