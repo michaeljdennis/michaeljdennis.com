@@ -1,0 +1,25 @@
+baseURL = 'https://michaeljdennis.com/'
+languageCode = 'en-us'
+title = 'michaeljdennis'
+theme = 'anubis'
+
+[params]
+style = 'dark'
+
+[[params.social]]
+id = "github"
+name = "michaeljdennis"
+
+[[params.social]]
+id = "linkedin"
+name = "michaeljdennis"
+
+[[params.social]]
+id = "mastodon"
+name = "michaeljdennis"
+url = "https://mastodon.social/@michaeljdennis"
+
+# [[params.social]]
+# id = "twitter"
+# name = "michaeljdennis"
+# url = "https://twitter.com/michaeljdennis"
