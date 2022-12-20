@@ -1,7 +1,6 @@
 ---
 title: "Developing Composer Packages Locally"
 date: 2018-09-08T23:03:05-07:00
-draft: true
 ---
 
 When building composer packages, the development workflow may not be immediately apparent. Consuming composer packages in your project can be as easy as adding one line to your composer.json file, but what about a package that is currently under development and not yet available via Packagist?
