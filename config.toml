@@ -2,6 +2,7 @@ baseURL = 'https://michaeljdennis.com/'
 languageCode = 'en-us'
 title = 'michaeljdennis'
 theme = 'anubis'
+googleAnalytics = 'G-BDR8ELQ4L4'
 
 [params]
 style = 'dark'
