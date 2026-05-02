@@ -1,0 +1,19 @@
+baseURL = "https://michaeljdennis.com/"
+locale = "en-us"
+title = "michaeljdennis"
+theme = "anubis2"
+
+[params]
+style = "dark"
+
+[params.anubis2]
+    colorTheme = "auto"
+    socialIcons = [
+        { id = "github", url = "https://github.com/michaeljdennis" },
+        { id = "linkedin", url = "https://www.linkedin.com/in/michaeljdennis" },
+        { id = "mastodon", url = "https://mastodon.social/@michaeljdennis" }
+    ]
+
+    [params.anubis2.services]
+        [params.anubis2.services.googleanalytics]
+            gtag = "G-BDR8ELQ4L4"
